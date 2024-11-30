@@ -22,18 +22,18 @@
 
 ---
 
-### Задание 1
+### Задание 3
 
 ![image](https://github.com/user-attachments/assets/f1c447c4-e69b-45a4-be9c-03a5bc78c4ac)
 
 
 
 
-
+### Задание 4
 
 ![image](https://github.com/user-attachments/assets/803a0499-aa8e-4a42-bc53-59b01756122b)
 
-
+```
 #!/bin/bash
 REPO_URL="https://github.com/ELK23/shvirtd-example-python"
 TARGET_DIR="/opt/вshvirtd-example-python"
@@ -51,6 +51,10 @@ echo "Запуск проекта..."
 docker compose up -d
 echo "Проверка состояния контейнеров..."
 docker compose ps
+```
+
+### Задание 5
+
 
 
 
