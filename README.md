@@ -52,8 +52,16 @@ docker compose up -d
 echo "Проверка состояния контейнеров..."
 docker compose ps
 ```
+https://github.com/ELK23/shvirtd-example-python
 
-### Задание 5
+### Задание 6
+![image](https://github.com/user-attachments/assets/1fcc37d9-3501-4dc3-98b5-c49a5902ebdb)
+![image](https://github.com/user-attachments/assets/a671e191-9adf-4df4-bcb9-45038b54398a)
+![image](https://github.com/user-attachments/assets/7e7c7370-cc5b-4df0-b337-035716340672)
+![image](https://github.com/user-attachments/assets/128692f8-7366-4ded-bd72-9fede147358f)
+
+
+
 
 
 
