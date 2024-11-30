@@ -34,6 +34,25 @@
 ![image](https://github.com/user-attachments/assets/803a0499-aa8e-4a42-bc53-59b01756122b)
 
 
+#!/bin/bash
+REPO_URL="https://github.com/ELK23/shvirtd-example-python"
+TARGET_DIR="/opt/вshvirtd-example-python"
+ENV_FILE=".env"
+echo "Клонирование репозитория..."
+if [ ! -d "$TARGET_DIR" ]; then
+    git clone "$REPO_URL" "$TARGET_DIR"
+else
+    echo "Репозиторий уже существует. Обновляем..."
+    cd "$TARGET_DIR" || exit
+    git pull
+fi
+cd "$TARGET_DIR" || exit
+echo "Запуск проекта..."
+docker compose up -d
+echo "Проверка состояния контейнеров..."
+docker compose ps
+
+
 
 
 
