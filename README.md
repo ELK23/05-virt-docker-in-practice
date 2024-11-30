@@ -69,6 +69,14 @@ https://github.com/ELK23/shvirtd-example-python
 
 
 
+### Задание 6.1
+![image](https://github.com/user-attachments/assets/3bd4f243-91c8-460a-ae45-cef86e790d1b)
+
+![image](https://github.com/user-attachments/assets/bd6e7a0e-21b1-48bf-ad3e-73e335909d3c)
+
+
+
+
 
 
 
